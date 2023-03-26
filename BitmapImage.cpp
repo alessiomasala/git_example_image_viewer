@@ -1,6 +1,6 @@
 #include "BitmapImage.h"
 
-BitmapImage::BitmapImage() : width(640), height(480) {
+BitmapImage::BitmapImage() : width(640), height(480), channel(3), depth(8){
     buffer = new char[width * height * 3];
 }
 
